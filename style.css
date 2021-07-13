@@ -63,7 +63,7 @@ header {
   height: 14px;
 }
 .button:hover {
-  background-color: transparent;
+  background-color: #2d25a0;
   color: white;
   border: 1px solid black;
 }
@@ -100,4 +100,99 @@ header {
   line-height: 26px;
   font-weight: 400;
 }
+.container-highlights {
+  width: 80%;
+  margin: auto;
+}
+.highlights-area {
+  display: flex;
+  justify-content: flex-start;
+  gap: 27px 30px;
+}
+.highlights-content h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  text-transform: capitalize;
+}
+.highlights-content p {
+  font-size: 16px;
+  line-height: 28px;
+}
+.higlights-img img {
+  width: 520px;
+  height: 427px;
+  margin-left: 65px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.container-sponsor {
+  width: 60%;
+  margin: auto;
+}
+.sponsors {
+  padding: 40px 0;
+}
+.sponsor-header {
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+}
+.sponsor-header h2 {
+  text-align: center;
+  color: #2d25a0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 28px;
+  padding: 20px 0;
+}
+.sponsor {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  padding: 80px 0;
+  grid-gap: 100px 50px;
+}
+.sponsor img {
+  width: 200px;
+  height: 100px;
+}
 /* main-ara ends */
+
+/* subscribe-area strarts */
+.container-subscribe {
+  width: 60%;
+  margin: auto;
+}
+.subscribe-info {
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+}
+.subscribe-form h2 {
+  text-align: center;
+  color: crimson;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+}
+.subscribe-form {
+  text-align: center;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 80px 0;
+}
+.subscribe-form input[type="text"] {
+  width: 50%;
+  padding: 10px 0;
+  border-right: none;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+.subscribe-form input[type="button"] {
+  padding: 10px;
+  margin-left: -11px;
+  background: darkblue;
+  color: white;
+  border-left: none;
+}
+/* subscribe-area ends */
