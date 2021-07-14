@@ -1,0 +1,17 @@
+/* media query starts */
+@media only screen and (max-width: 760px) {
+  .container-header {
+  }
+  .container-main {
+    width: 90%;
+    margin: auto;
+  }
+  .players {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    grid-gap: 10px 10px;
+    margin: 70px 0;
+  }
+}
+/* media query ends */
