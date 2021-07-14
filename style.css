@@ -222,27 +222,24 @@ header {
   width: 483.87px;
   height: 110px;
 }
-.social-icon {
+.social-icon ul {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.insta,
-.twitter,
-.dribble,
-.youtube {
-  text-align: center;
-  background: #969bab;
-  opacity: 0.8;
+.social-icon ul li {
+  list-style: none;
+  margin: 0 3px;
+}
+.social-icon ul li a {
+  text-decoration: none;
+  background-color: #969bab;
   width: 32px;
   height: 32px;
-  border-radius: 16px;
-  margin: 0 5px;
-}
-.social-icon i {
-  font-size: 13px;
-
-  color: #676b79;
+  border-radius: 50%;
+  color: black;
+  font-size: 16px;
+  padding: 5px;
 }
 .copyright p {
   text-transform: capitalize;
